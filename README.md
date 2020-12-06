@@ -58,7 +58,7 @@
 <br>
 
 ## Bash commands
-###(file commands)
+### (file commands)
 
 *lists your files in current directory *
 `ls`
@@ -131,7 +131,7 @@
 
 ------------
 
-###(directory commands)
+### (directory commands)
 
 *makes a new directory*
 `mkdir <dirname>`
