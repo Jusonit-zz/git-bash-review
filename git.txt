@@ -30,7 +30,7 @@ $ git commit -m "comment"
 $ git push -u origin master
 $ git push -f origin master
 
-// Pull latest from remote repository
+// Pull latest changes from remote repository
 $ git pull
 
 // Clone repository into a new directory
