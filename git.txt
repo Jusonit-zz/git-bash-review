@@ -23,6 +23,9 @@ $ git status
 // Commit changes in index
 $ git commit
 
+// Commit changes without using an editor for the comment
+$ git commit -m "comment"
+
 // Push to remote repository
 $ git push
 
@@ -31,8 +34,3 @@ $ git pull
 
 // Clone repository into a new directory
 $ git clone <url>
-
-
-
-
-
