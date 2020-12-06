@@ -34,3 +34,12 @@ $ git pull
 
 // Clone repository into a new directory
 $ git clone <url>
+
+// Create a new branch
+$ git branch <branch_name>
+
+// Go to different branch
+$ git checkout <branch_name>
+
+// Create a gitignore file
+$ touch .gitignore
