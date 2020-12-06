@@ -1,0 +1,6 @@
+
+// Create a new file
+$ touch <filename>
+
+// Delete a file
+$ rm <filename>
