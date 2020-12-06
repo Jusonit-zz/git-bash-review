@@ -27,7 +27,8 @@ $ git commit
 $ git commit -m "comment"
 
 // Push to remote repository
-$ git push
+$ git push -u origin master
+$ git push -f origin master
 
 // Pull latest from remote repository
 $ git pull
