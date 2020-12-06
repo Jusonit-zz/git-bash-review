@@ -47,3 +47,7 @@ $ git checkout <branch_name>
 
 // Create a gitignore file
 $ touch .gitignore
+
+// Remove files/folder with gitignore that are already in the repository
+$ git rm -rf --cached .
+$ git add .
