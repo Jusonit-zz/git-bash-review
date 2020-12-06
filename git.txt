@@ -41,7 +41,8 @@ $ git branch <branch_name>
 // Merge branches to master
 $ git merge <branch_name>
 
-
+// Go to different branch
+$ git checkout <branch_name>
 
 // Create a gitignore file
 $ touch .gitignore
