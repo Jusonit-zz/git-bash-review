@@ -37,14 +37,38 @@
 *Clone repository into a new directory*
 `$ git clone <url>`
 
+*Connect to a remote repository*
+`$ git remote add origin <server>`
+
+*List all currently configured remote repositories*
+`$ git remote -v`
+
+*List all the branches in repository*
+`$ git branch`
+
 *Create a new branch*
 `$ git branch <branch_name>`
+
+*Delete a branch*
+`$ git branch -d <branch_name>`
+
+*Push all branches to remote repository*
+`$ git push --all origin`
 
 *Merge branches to master*
 `$ git merge <branch_name>`
 
 *Go to different branch*
 `$ git checkout <branch_name>`
+
+*Add a tag to mark significant changes*
+`$ git tag 2.0.0 <commitID>`
+
+*Push all tags to remote repository*
+`$ git push --tags origin`
+
+*Search the working directory for a certain string*
+`$ git grep "keyword"`
 
 *Create a gitignore file*
 `$ touch .gitignore`
