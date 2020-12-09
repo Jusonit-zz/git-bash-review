@@ -31,6 +31,17 @@
 *another way:*
 `$ git push -f origin master`
 
+*Undo a push*
+`$ git revert <commit_hash>`
+*undo last push*
+`$ git revert HEAD`
+
+*Prints the commit logs*
+`$ git log --oneline`
+
+*Leave work in progress and modify in a branch*
+`$ git stash`
+
 *Pull latest changes from remote repository*
 `$ git pull`
 
